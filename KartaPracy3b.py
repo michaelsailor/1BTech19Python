@@ -34,3 +34,10 @@
 # for i in range(2,2*k,2):
 #  a+=i
 # print(a)
+
+# #zad 7
+# k = int(input())
+# a=0
+# for i in range(10,2*k,2):
+#  a+=i
+# print(a)
