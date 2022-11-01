@@ -30,14 +30,29 @@
 
 # #zad 6
 # k = int(input())
-# a=0
-# for i in range(2,2*k,2):
-#  a+=i
-# print(a)
+# suma=0
+# for i in range(2,k+1,2):
+#  suma+=i
+# print(suma)
 
 # #zad 7
-# k = int(input())
-# a=0
-# for i in range(10,2*k,2):
-#  a+=i
-# print(a)
+# m = int(input())
+# suma=0
+# for i in range(11,m+1,2):
+#  suma+=i
+# print(suma)
+
+# #zad 9
+# n = int(input())
+# suma=0
+# for i in range(21,n+1,100):
+#  suma+=i
+# print(suma)
+
+# #zad 10
+# import math
+# for i in range(1,1000):
+#   if i%10==math.sqrt(i):
+#     print(i)
+#   elif i%100==math.sqrt(i):
+#     print(i)
