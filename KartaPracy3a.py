@@ -28,4 +28,8 @@
 #       print("*", end=" ")
 #     else:
 #       print("-", end =" ")
-#   print("ballz")
+#   print("💀")
+
+# n=1
+# while True:
+#   print("💀", end=" ")
