@@ -37,5 +37,26 @@
 # a=int(input())
 # b=int(input())
 # while b>0:
-#   a, b = b, a%b
+#   a = b
+#   b = a%b
 # print(a)
+
+# #NWW no.1
+# a=int(input())
+# b=int(input())
+# iloczyn=a*b
+# while a!=b:
+#  if a>b:
+#   a=a-b
+#  elif b>a:
+#   b=b-a
+# if a==b:
+#   print(iloczyn/a)
+
+# #NWW no.2
+# a=int(input())
+# b=int(input())
+# iloczyn=a*b
+# while b>0:
+#   a, b = b, a%b
+# print(iloczyn//a)
