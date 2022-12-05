@@ -60,3 +60,25 @@
 # while b>0:
 #   a, b = b, a%b
 # print(iloczyn//a)
+
+#funkcja ord() - zwraca kod ASCII znaku
+#kod ASCI dla dużych liter jest od 65 do 90
+#funkcja chr() zwraca znak dla danego kodu
+
+# #zad test (wypisz duże A-Z)
+# for i in range(65,91):
+#   print(chr(i))
+  
+#string w pythonie - tablica
+# napis = "polska"
+# print(napis[0], napis[1], napis[2])
+
+# for i in range(len(napis)):
+#   print(napis[i], end="")
+
+#szyfr cezara
+napis=input()
+szyfr=""
+for i in range(len(napis)):
+  szyfr=szyfr+chr(65+ ((ord(napis[i])-65+3) %26))
+print(szyfr)
