@@ -76,9 +76,27 @@
 # for i in range(len(napis)):
 #   print(napis[i], end="")
 
-#szyfr cezara
-napis=input()
-szyfr=""
-for i in range(len(napis)):
-  szyfr=szyfr+chr(65+ ((ord(napis[i])-65+3) %26))
-print(szyfr)
+# #szyfr cezara
+# napis=input()
+# szyfr=""
+# for i in range(len(napis)):
+#   szyfr=szyfr+chr(65+ ((ord(napis[i])-65+3) %26))
+# print(szyfr)
+
+#dodawanie ułamków ???????
+a=int(input("licznik ułamku nr.1  "))
+b=int(input("mianownik ułamku nr.1  "))
+c=int(input("licznik ułamku nr.2  "))
+d=int(input("mianownik ułamku nr.2  "))
+nww=0
+iloczyn=b*d
+while b!=d:
+ if b>d:
+  b=b-d
+ elif d>b:
+  d=d-b
+nww=iloczyn//b
+x=(nww//b)*a
+y=(nww//d)*c
+z=x+y
+print(f"{a}/{b} + {c}/{d} = {x}/{nww} + {y}/{nww} = {z}/{nww}")
