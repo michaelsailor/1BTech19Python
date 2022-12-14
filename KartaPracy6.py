@@ -22,12 +22,29 @@
 #     s=s+i
 # print(s)
 
+# #zad.3
+# s=0
+# for i in range(1000,10000):
+#   if i%98==0:
+#     s=s+1
+# print(s)
 
-#zad.4
+
+# #zad.4
+# ilosc=0
+# for i in range(10,100):
+#   cd=i//10
+#   cj=i%10
+#   if cd>=2*cj:
+#     ilosc+=1
+# print(ilosc)
+
+
+#zad.5
+suma=0
 ilosc=0
 for i in range(10,100):
-  cj=i//10
-  cd=i%10
-  if cd>=2*cj:
-    ilosc=+1
-print(ilosc)
+  cj=i%10
+  cd=(i//10)%10
+  cs=i%100
+  
