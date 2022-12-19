@@ -40,11 +40,11 @@
 # print(ilosc)
 
 
-#zad.5
-suma=0
-ilosc=0
-for i in range(10,100):
-  cj=i%10
-  cd=(i//10)%10
-  cs=i%100
+# #zad.5
+# suma=0
+# ilosc=0
+# for i in range(10,100):
+#   cj=i%10
+#   cd=(i//10)%10
+#   cs=i%100
   
