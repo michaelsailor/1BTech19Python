@@ -28,18 +28,21 @@
 #   suma+=k
 # print(suma)
 
-# #zad 6
-# k = int(input())
+# #zad.6
+# k=int(input())
 # suma=0
-# for i in range(2,k+1,2):
-#  suma+=i
+# for i in range(0,(2*k)+2,2):
+#   suma+=k
 # print(suma)
 
-# #zad 7
+# #zad.7
 # m = int(input())
 # suma=0
-# for i in range(11,m+1,2):
-#  suma+=i
+# for i in range(11,100,2):
+#   suma+=i
+#   m-=1
+#   if m==0:
+#     break
 # print(suma)
 
 # #zad 9
