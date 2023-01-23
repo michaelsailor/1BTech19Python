@@ -1,7 +1,10 @@
 # //Wygeneruj tablicę n losowych liczb:
-# from random import randint
-# L = [for i in range(20): randint(1,21)]
-
+from random import randint
+L = [randint(1,21) for i in range(20)]
+print(L)
+print(max(L))
+print(min(L))
+print(L.count(max(L)))
 
 
 # 1. Znajdź największą liczbę w tablicy
