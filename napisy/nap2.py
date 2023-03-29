@@ -34,9 +34,43 @@
 # for i in range(4):
 #   print(A[i])
 
-# zadanie 4
-b=input()
-suma=0
-for i in b:
-  suma=suma+ord(i)
-print(suma)
+# # zadanie 4
+# b=input()
+# suma=0
+# for i in b:
+#   suma=suma+ord(i)
+# print(suma)
+
+# # 5. Policz ile we wpisanym napisie jest liter A.
+# e=input()
+# ilość=0
+# for i in e:
+#   if i == "a" or i == "A":
+#     ilość+=1
+# print(ilość)
+
+# # 6. Podaj dominującą literkę we wpisanym napisie. 
+# # Niech to będzie tylko jedna literka.
+# g=input()
+# domin=0
+# for i in g:
+#   if g.count(i)>domin:
+#     domin=g.count(i)
+#     literka=i
+# print(literka, domin)
+
+# 7. Znajdź literkę-dominantę w napisie (może ich być kilka, a może nie być żadnej)
+
+
+# 8. Sprawdź czy w napisie występują trzy podciągi "LA"
+e=input()
+print(e.count("LA"))
+
+
+
+# 9. Znajdź "średnią literkę" w napisie. (Przejdź na kody ASCII i jeśli wynik będzie
+# ułamkowy to zaokrąglij średnią w dół)
+
+# 10. Wypisz literki, których nie ma w napisie
+
+# 11. Znajdź ilość trzyznakowych palindromów w napisie (trzy literki koło siebie)
