@@ -1,5 +1,5 @@
-#string to prawie lista
- #konwersja lista <-> napis( list(), join() )
+# #string to prawie lista
+# # konwersja lista <-> napis[ list(), join()]
 # s=input()
 # L=list(s)
 # print(s,L)
