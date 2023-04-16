@@ -13,4 +13,10 @@
 # else:
 #   print("nie")
 
-#Zad3
+# #Zad3
+# c=input()
+# d=""
+# for i in c:
+#   if c.count(i)==1:
+#     d=d+i
+# print(d)
